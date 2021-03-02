@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css" />
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>
+		<div class="main-screen">
+			<div class="app-container">
+				<div id="banner" class="banner">WowPaper.io</div>
+				<div id="app" class="app">
+					<p>{{submittedMessage}}</p>
+					<input type="text" data-role="taginput" data-random-color="true" data-max-tags="5" data-tag-trigger="Comma" />
+					<button v-on:click="submitMessage" class="button primary">Submit</button>
+				</div>
+				<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+				<script src="index.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
