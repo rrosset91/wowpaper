@@ -1,5 +1,25 @@
 .banner {
-	font-size: 3rem;
+	text-align: center;
+	font-size: 4rem;
 	font-family: "Akaya Telivigala", cursive;
-	color: rgb(102, 66, 245);
+	color: black;
+	text-shadow: 2px 2px rgb(196, 58, 250);
+}
+
+.input-tags {
+	width: 70%;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.submit-button {
+	margin: auto;
+	text-align: center;
+	margin-top: 1rem;
+}
+.page {
+	margin-top: 20%;
+}
+body {
+	overflow: hidden;
 }

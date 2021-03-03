@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rrosset91/wowpaper#readme",
   "dependencies": {
+    "@voerro/vue-tagsinput": "^2.4.3",
     "prettier": "^2.2.1"
   }
 }
